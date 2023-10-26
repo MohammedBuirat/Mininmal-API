@@ -2,7 +2,7 @@
 {
     public class AuthenticationRequestBody
     {
-        string? UserName { get; set; }
-        string? Password { get; set; }
+        public string? Username { get; set; }
+        public string? Password { get; set; }
     }
 }
